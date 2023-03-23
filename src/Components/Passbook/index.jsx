@@ -144,7 +144,7 @@ function Passbook() {
         TransactionList
       );
 
-      setDummyfilteredData([...temp]);
+      setDummyfilteredData(temp);
     }
   }, [submitedInput]);
   console.log(TransactionList, "TransactionList");
@@ -171,7 +171,7 @@ function Passbook() {
         </div>
 
         <div className="transaction-data">
-          {dummyfilteredData.length === 0 && filterMode ? (
+          {dummyfilteredData?.length === 0 && filterMode ? (
             <>
               <div>{"No data available between these dates"}</div>
               <button
@@ -197,7 +197,7 @@ function Passbook() {
                   </TableRow>
                 </TableHead>
                 <TableBody>
-                  {dummyfilteredData.length !== 0 ? (
+                  {dummyfilteredData && dummyfilteredData?.length !== 0 ? (
                     <>
                       {dummyfilteredData?.map((transaction, idx) => (
                         <TableRow
