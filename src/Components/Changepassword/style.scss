@@ -1,0 +1,50 @@
+.forgot-password {
+  background-color: #01afff7a;
+  .MuiDialog-paper {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #1b1d27;
+    color: white;
+  }
+}
+.close-icon-div {
+  display: flex;
+  justify-content: end;
+}
+.forgot-password-title {
+  margin: 2rem 0 2rem 0;
+}
+
+.forgot-password-form {
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+  }
+  .MuiInputLabel-root {
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+  .forgot-password-form-button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      background: #01b0ff;
+      min-height: 30px;
+      border-width: 0;
+      border-radius: 5px;
+      outline: none;
+      padding: 10px 80px;
+      margin: auto;
+    }
+  }
+}

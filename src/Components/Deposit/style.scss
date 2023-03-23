@@ -1,0 +1,429 @@
+.deposit_main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #01b0ff;
+}
+.deposit_head {
+  flex: 0.1;
+  background-color: #01b0ff;
+  margin-bottom: 2rem;
+}
+.deposit_body {
+  flex: 0.9;
+  background-color: #1b1d27;
+  border-radius: 15px 15px 0 0;
+}
+.wallet-balance {
+  width: 82%;
+  height: 8rem;
+  background-color: #2f354b;
+  border-radius: 15px;
+  margin-left: 9%;
+  margin-top: -2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 50px;
+  }
+}
+.deposit_title {
+  height: 50px;
+  padding: 15px;
+
+  .MuiSvgIcon-root {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    color: #fff;
+  }
+}
+.deposit_subtitle {
+  padding-top: 0.75rem;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.wallet-balance-data-title {
+  color: #01b0ff;
+}
+.wallet-balance-data {
+  margin-left: 1rem;
+}
+.wallet-balance-data-amount {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+.wallet-transfer-details-balance {
+  margin-bottom: 3rem;
+
+  hr {
+    border: none;
+    border-top: 3px dotted rgb(169, 165, 165);
+  }
+}
+.wallet-transfer-details {
+  color: #fff;
+  padding: 10%;
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+  }
+  .MuiInputLabel-root {
+    font-size: 20px;
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+}
+.deposit_details-balance {
+  margin-bottom: 1rem;
+
+  hr {
+    border: none;
+    border-top: 3px dotted rgb(169, 165, 165);
+  }
+}
+.deposit_details {
+  color: #fff;
+  padding: 10%;
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+  }
+  .MuiInputLabel-root {
+    font-size: 20px;
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+}
+
+.deposit-amount-input {
+  width: 100%;
+  height: 3.5rem;
+  border-width: 0;
+  outline: none;
+  border-radius: 8px;
+  background-color: #2f354b;
+  padding: 1rem;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+// pyament method
+.Payment_method_main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1b1d27;
+}
+.Payment_method_head {
+  // flex: 0.11;
+  background: #01b0ff;
+  padding-bottom: 2rem;
+}
+.Payment_method_body {
+  // flex: 0.89;
+  background-color: #1b1d27;
+  padding: 1rem;
+  // border-radius: 15px 15px 0 0;
+}
+
+.Payment_method_title {
+  height: 50px;
+  padding: 15px;
+
+  .MuiSvgIcon-root {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    color: #fff;
+  }
+}
+.Payment_method_subtitle {
+  padding-top: 0.75rem;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.Payment_method_details {
+  color: #fff;
+  padding: 10%;
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+  }
+  .MuiInputLabel-root {
+    font-size: 20px;
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+}
+.profile_data {
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.image_box {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #2f354b;
+  border-radius: 12px;
+}
+.subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.crd {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card_image {
+  display: flex;
+  justify-content: center;
+}
+.card_text {
+  color: #fff;
+  line-height: normal;
+  font-size: 13px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.payment_method_heading h3 {
+  color: #fff;
+  padding-bottom: 5px;
+  display: inline;
+  position: relative;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+}
+.payment_method_heading h3::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #01b0ff;
+  left: 0;
+  top: 86%;
+  position: absolute;
+}
+
+// Payment Deatils
+
+.Payment_detail {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #2f354b;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+.Payment_detail_title {
+  font-size: 17px;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.person_deatils {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0;
+}
+.person_name {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.person_data {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.file_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1b1d27;
+  border-radius: 13px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.file_label {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  cursor: pointer;
+  color: #fff;
+}
+.file_input {
+  display: block;
+  width: 0;
+  height: 0;
+}
+.clickfile {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.bank_name_value {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.account_holder_value {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #fff;
+  margin-top: 1rem;
+  // margin-bottom: 1rem;
+}
+.Person_preview_img {
+  width: -webkit-fill-available;
+  // height: auto;
+}
+.upload_button_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.upload_button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+  flex: 0.88;
+  background-color: #000;
+  margin-top: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.deposit_form_container {
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 1rem;
+  }
+  .MuiInputLabel-root {
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+  .MuiFormLabel-root.Mui-error {
+    color: #fff;
+  }
+}
+.deposit_button_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.deposit_button {
+  background: #01b0ff;
+  min-height: 30px;
+  border-width: 0;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 80px;
+  margin: auto;
+}
+
+.deposit_select {
+  .MuiFormLabel-root.MuiInputLabel-root {
+    font-size: 16px;
+  }
+}
+.preview_img {
+  width: -webkit-fill-available;
+  height: auto;
+}
+.deposit_file_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #2b2929;
+  border-radius: 13px;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.deposit-transfer-button {
+  width: 76%;
+  margin-left: 12%;
+  height: 3rem;
+  font-size: 18px;
+  border-radius: 5px;
+  border-width: 0;
+  background: #01b0ff;
+}
+.deposit_close_icon {
+  display: flex;
+  justify-content: end;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}

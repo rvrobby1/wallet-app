@@ -1,0 +1,282 @@
+.new-home-page {
+  height: 94vh;
+  background-color: #1b1d27;
+  display: flex;
+  flex-direction: column;
+}
+.new-home-page-topdiv {
+  flex: 0.6;
+}
+.new-home-page-header {
+  padding: 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.new-home-page-header-avatar {
+  font-size: 40px;
+}
+.new-home-page-balance {
+  margin-top: 3rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+  width: 80%;
+  height: 7rem;
+  background: #2f354b;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.new-home-page-balance-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #aca6a6;
+}
+.new-home-page-balance-money {
+  font-size: 25px;
+  font-weight: 500;
+  color: #01b0ff;
+}
+.new-home-page-buttons {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.new-home-page-button-main {
+  flex: 0.34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.new-home-page-button {
+  background: #2f354b;
+  padding: 20px;
+  color: #01b0ff;
+  border-radius: 20px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.new-home-page-button-title {
+  margin-top: 1rem;
+  font-size: 12px;
+  color: #aca6a6;
+  font-weight: 700;
+}
+.latest-transaction {
+  flex: 0.4;
+  background: #2f354b;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 0 20px 0 20px;
+  color: #127eb0;
+}
+.latest-transaction-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+}
+.latest-transaction-data {
+  // margin-top: 3rem;
+}
+.latest-transaction-single-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.7rem;
+}
+.latest-transaction-party {
+  font-weight: 700;
+  font-size: 18px;
+}
+.latest-transaction-amount {
+  color: #01b0ff;
+}
+.latest-transaction-date {
+  font-size: 15px;
+  color: #aca6a6;
+  font-weight: 500;
+}
+.loginReg_container {
+  height: 100vh;
+  background-color: #01b0ff;
+  display: flex;
+  flex-direction: column;
+}
+.loginReg_top {
+  flex: 0.35;
+}
+.loginReg_bottom {
+  flex: 0.65;
+  background-color: #000;
+  border-radius: 20px 20px 0 0;
+  background-color: #01b0ff;
+}
+.Joinnow_button {
+  width: 150px;
+}
+.login_button {
+  width: 150px;
+}
+.loginReg_button {
+  background: #01b0ff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deposit_withdraw {
+  display: flex;
+  align-items: center;
+  padding: 0 40px 0 40px;
+}
+.deposit {
+  flex: 0.275;
+  height: 7rem;
+  background-color: #000;
+  border-radius: 15px 0 0 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  .MuiSvgIcon-root {
+    font-size: 4rem;
+  }
+}
+.withdraw {
+  flex: 0.275;
+  height: 7rem;
+  background-color: #000;
+  border-radius: 0 15px 15px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  .MuiSvgIcon-root {
+    font-size: 4rem;
+  }
+}
+.deposit_withdraw_login {
+  flex: 0.45;
+  height: 10.5rem;
+  background-color: #000;
+  border-radius: 15px;
+}
+.deposit_title {
+  font-size: 10px;
+}
+.withdraw_title {
+  font-size: 10px;
+}
+.yellow_strip {
+  background-color: #01b0ff;
+  height: 10px;
+}
+.joinNowFrom {
+  .MuiDrawer-paper {
+    background-color: #000;
+    color: #fff;
+    height: 97vh;
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+.closing_button {
+  cursor: pointer;
+  height: 45px;
+  width: 40px;
+  border-radius: 0 0 30px 30px;
+  background-color: #01b0ff;
+  margin-left: 85%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register_form {
+  padding: 0 30px 30px 30px;
+}
+.register_form_title {
+  font-size: 22px;
+  margin-bottom: 3rem;
+}
+.loginReg_bottom {
+  background-color: #01b0ff;
+
+  padding: 15px;
+  img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+}
+.create_button {
+  background-color: #191718;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.myids_data {
+  padding: 20px;
+  box-shadow: #d2770d 0 -1px 8px 0;
+}
+.myids_data_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  margin-bottom: 10px;
+
+  button {
+    background-color: #252424;
+    outline: none;
+    border-width: 0;
+    padding: 10px;
+    color: #fff;
+  }
+}
+.myids_data_body {
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  background-color: #252424;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.myids_data_buttons {
+  font-size: 11px;
+  width: 100%;
+  height: 2rem;
+  background-color: #191718;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.myids_data_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .MuiSvgIcon-root {
+    height: 0.7em;
+  }
+}

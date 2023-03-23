@@ -1,0 +1,132 @@
+.form_container {
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+  }
+  .MuiInputLabel-root {
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+}
+.acceptance {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  a {
+    font-size: 12px;
+  }
+}
+
+.mobile-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.country-input {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+    overflow: scroll;
+  }
+  .MuiInputLabel-root {
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+  .MuiSelect-icon {
+    color: #fff;
+  }
+}
+.number-input {
+  flex: 0.8;
+  .MuiTextField-root {
+    width: 100%;
+    border-bottom: 2px solid #fff;
+  }
+  .MuiInputLabel-root {
+    color: #fff;
+  }
+  .MuiInputLabel-root.Mui-focused {
+    color: #fff;
+  }
+  .MuiInput-root {
+    color: #fff;
+  }
+  .MuiInput-root:after {
+    border-bottom: none;
+  }
+}
+.mobile-number-label {
+  font-size: 12px;
+}
+
+
+
+.dealer-popup {
+  background-color: #fac00098;
+  .MuiDialog-paper {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #000;
+    color: white;
+  }
+  input {
+    width: 100%;
+    height: 3rem;
+    border-width: 0;
+    outline: none;
+    border-radius: 8px;
+    background-color: #252424;
+    padding: 1rem;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 2rem;
+  }
+
+  .code_button_div {
+    // width: 100%;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .code_button{
+    background: linear-gradient(180deg, #fac000 0%, rgb(225, 133, 21) 100%);
+    min-height: 30px;
+    border-width: 0;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 1rem;
+    // margin: auto;
+  }
+  
+}
+.close-icon-div {
+  display: flex;
+  justify-content: end;
+}
+.close-icon-div-text {
+  margin: 1rem 0 1rem 0;
+}
