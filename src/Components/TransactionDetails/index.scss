@@ -1,0 +1,27 @@
+.transaction-detail-main {
+  // background-color: #191718;
+  .MuiDialog-paper {
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #1b1d27;
+    color: white;
+    width: 100%;
+  }
+}
+.transaction-detail-close-div {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2rem;
+}
+
+.transaction-details-data {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-detail {
+  margin-bottom: 0.5rem;
+  display: flex;
+}
+.other-details {
+  display: flex;  
+}

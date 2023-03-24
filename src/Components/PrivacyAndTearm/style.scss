@@ -1,0 +1,58 @@
+.refer-and-earn_main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fac000;
+}
+.refer-and-earn_head {
+  flex: 0.11;
+  background-color: #fac000;
+}
+.refer-and-earn_body {
+  flex: 0.89;
+  background-color: #000;
+  // border-radius: 15px 15px 0 0;
+}
+.refer-and-earn_title {
+  height: 50px;
+  padding: 15px;
+
+  .MuiSvgIcon-root {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    color: #fff;
+  }
+}
+
+
+.refer_and_earn_bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #252424;
+  margin: 1rem;
+}
+.refer_and_earn_user_detail {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  border-radius: 15px;
+  width: -webkit-fill-available;
+}
+.refer_and_earn_user_info {
+  margin-left: 16px;
+  text-align: center;
+}
+.refer_and_earn_user_name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.refer_and_earn_user_code {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 2px;
+}
